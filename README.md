@@ -14,3 +14,5 @@ This application is built using a variety of modern technologies to provide a un
 ## Installation
 
 `npm install`
+
+Browse to the localhost and play around!
