@@ -3,6 +3,9 @@
 import { Menu } from "lucide-react";
 import { Poppins } from "next/font/google";
 import Link from "next/link";
+import { UserButton } from "@clerk/nextjs";
+
+import { cn } from "@/lib/utils";
 
 const font = Poppins({
   weight: "600",
@@ -15,10 +18,16 @@ export const Navbar = () => {
       <div className="flex items-center">
         <Menu className="md:hidden" />
         <Link href="/">
-          <h1 className="hidden md:block text-xl md:text-3xl font-bold text-primary">
+          <h1 className={cn(
+            "hidden md:block text-xl md:text-3xl font-bold text-primary",
+            font.className
+          )}>
             Heading here
           </h1>
         </Link>
+      </div>
+      <div className="flex items-center gap-x-3">
+        <UserButton />
       </div>
     </div>
   )
