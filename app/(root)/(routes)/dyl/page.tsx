@@ -43,7 +43,7 @@ const DYL = () => {
               value={work}
               onChange={(e) => setWork(Number(e.target.value))}
               style={{
-                background: 'green'
+                background: 'blue'
               }}
             />
             <span>{work}</span>
