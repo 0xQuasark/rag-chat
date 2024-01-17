@@ -12,6 +12,7 @@ export const metadata: Metadata = {
 }
 
 // const [user, setUser] = useState(useUser());
+// const 
 
 export default function RootLayout({
   children,
