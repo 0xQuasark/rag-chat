@@ -49,7 +49,7 @@ const DYL = () => {
             <span>{work}</span>
             </div>
           </div>
-          {/* Play Slider */}
+          {/* Play   Slider */}
           <div className="flex items-center justify-between">
             <Label htmlFor="play-slider">Play ⛹️‍♂️</Label>
             <div className="flex items-center w-2/3">
