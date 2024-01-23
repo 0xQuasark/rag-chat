@@ -10,6 +10,7 @@ const RootLayout = ({
       <Navbar />
       <main className="md:pl-20 pt-16 h-full">
         {children}
+        Footer
       </main>
     </div>
    );
